@@ -14,7 +14,7 @@ connectDB();
 const app = express();
 
 const corsOptions = {
-  origin: ["http://localhost:3000", "https://www.ez-interview.co/"],
+  origin: ["http://localhost:3000", "https://ez-interview.co","https://ezinterview.vercel.app","https://www.ez-interview.co"],
   optionsSuccessStatus: 200, // Corrected property name
   credentials: true,
 };
